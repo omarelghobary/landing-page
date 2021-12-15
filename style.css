@@ -1,4 +1,118 @@
+/* CSS reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* starts of my styling */
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 32px 0px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.dis{
+    width: 380px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 16px 0;
+}
+
+/*section one styling */
+.secone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background-color: #1F2937;
+    flex: 1;
+    padding: 32px;
+}
+
 img{
-    width: 460px;
-    height: 360px;
+    width: 560px;
+    height: 260px;
+}
+
+button{
+    background-color: #3882F2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 42px;
+    border-radius: 8px;
 }
