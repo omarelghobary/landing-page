@@ -146,13 +146,18 @@ img{
 .qoutecontainer{
     background-color: #E5E7EB;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 42px 64px;
 }
+
+
 .qoute{
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
-    width: 559px;
+    width: 800px;
     height: auto;
     padding: 32px;
 }
@@ -160,15 +165,51 @@ img{
     font-size:16px;
     font-weight: bold;
     display: flex;
+    justify-content: flex-end;
     
 }
-    
 
+.signup{
+    padding: 64px;
+}
+.signupcontainer{
+    background-color: #3882F2;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 0 150px;
+    
+}
+
+.firstline{
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.secondline{
+    color: #E5E7EB;
+    font-weight: lighter;
+    font-size: 14px;
+}
+    
 button{
     background-color: #3882F2;
     color: #fff;
+    border: 1px solid #fff;
     font-size: 16px;
     font-weight: bold;
     padding: 8px 42px;
     border-radius: 8px;
+}
+
+footer{
+    text-align: center;
+    background-color: #1F2937;
+    padding: 32px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #F9FAF8;
+
 }
